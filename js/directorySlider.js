@@ -16,11 +16,11 @@
        // Merge config settings
        var config = $.extend({
            animation: 'slide',
-           filebase: 'slide_',
+           filebase: '*',
            extension: 'jpg',
            speed: 1000,
            timeout: 4000,
-           directory: null,
+           directory: '/img/slides',
            numslides: null,
            height: null,
            width: null
